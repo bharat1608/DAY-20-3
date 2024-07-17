@@ -1,8 +1,6 @@
-// script.js
 
-/**
- * Fetch a random Chuck Norris fact from the API
- */
+
+
 function fetchChuckNorrisFact() {
     console.log('Fetching Chuck Norris fact...');
     fetch('https://api.chucknorris.io/jokes/random')
@@ -25,10 +23,10 @@ function fetchChuckNorrisFact() {
       });
   }
   
-  // Add event listener to fetch a fact when the button is clicked
+  
   document.getElementById('getFactBtn').addEventListener('click', fetchChuckNorrisFact);
   
-  // Fetch a fact on page load
+  
   fetchChuckNorrisFact();
   
   
